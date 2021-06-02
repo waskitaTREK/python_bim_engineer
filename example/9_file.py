@@ -1,11 +1,18 @@
 # Open the txt file
 ## Read - "r" (default)
-f = open("D:\WASKITA2\python_bim_engineer\example\data1.txt","r")
+f = open(r"example/data1.txt","r")
 
 #print the data in terminal
 print(f.read())
 
 ## Append - "a" (append text in the end of data)
 ## Write - "w" (overwrite any existing content)
-f = open("D:\WASKITA2\python_bim_engineer\example\data1.txt","a")
+f = open(r"example/data1.txt","a")
+
+# add text at the and of the line
 f.write("Need more Data!")
+
+# add multiple text with enter
+f.writelines(["\nNeed more data", "\nmore and more"])
+
+f.close()
