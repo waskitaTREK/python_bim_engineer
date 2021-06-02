@@ -21,7 +21,7 @@ list_mix.append("August 15th, 1995")
 print(list_mix)
 
 ## Append list 1 to list 2
-list1 = ["apple", "banana", "cherry"]
+list1 = ["apple", "banana", "cherry", "orange"]
 list2 = ["mango", "pineapple", "papaya"]
 list1.extend(list2)
 print(list1)
@@ -29,4 +29,10 @@ print(list1)
 #Remove item from list
 ## Remove item from list using item 
 list1.remove("banana")
+
+## Remove item using index
+list2.pop(0)
+
+## Clear list content
+list1.clear()
 print(list1)
