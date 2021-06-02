@@ -9,7 +9,7 @@ list_mix = ["Ryan",25,True,180,"male"]
 print(type(list_string))
 
 # Access List Items
-print(list_string[1:])
+print(list_string[1])
 
 # Change Item Value's using index number
 list_mix[2] = False
@@ -36,3 +36,13 @@ list2.pop(0)
 ## Clear list content
 list1.clear()
 print(list1)
+
+# Slicing Item Values
+## list[start:end:jump]
+## Positives
+list = [10,20,30,40,50,60,70]
+print(list[1:3])
+## Negatives
+print(list[-5:-2])
+## Jumps
+print(list[::2])
