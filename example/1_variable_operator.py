@@ -44,3 +44,13 @@ print(type(e))
 f = 20 ** 7
 f = 20**(1/2)
 print(f)
+
+# Comparator
+
+print(5 == 3) # is equal
+print(5 != 3) # is not equal
+print(5 > 3) # greater than
+print(5 < 3) # less than
+print(5 >= 3) # greater than equal
+print(5 <= 3) # less than equal
+print(~(5 <= 3)) # not operator
