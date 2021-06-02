@@ -1,18 +1,17 @@
-numbers = [5,2,7,6,4,2,1,10,55,22]
+numbers = [5,2,7,6,4,2,1,10,55,22,4]
 
-is_sorted = False
-while(not is_sorted):
+for i in range(len(numbers)):
     is_sorted = True
-    for i in range(len(numbers)):
+    for j in range(len(numbers) - i):
         # if it's the end of list, than continue
-        if i == len(numbers) - 1:
+        if j == len(numbers) - 1:
             continue
         
         # swapping
-        if numbers[i] > numbers[i+1]:
-            temp = numbers[i]
-            numbers[i] = numbers[i+1]
-            numbers[i+1] = temp
+        if numbers[j] > numbers[j+1]:
+            temp = numbers[j]
+            numbers[j] = numbers[j+1]
+            numbers[j+1] = temp
 
             is_sorted = False
 
