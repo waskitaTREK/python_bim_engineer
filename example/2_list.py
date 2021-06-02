@@ -41,8 +41,8 @@ print(list1)
 ## list[start:end:jump]
 ## Positives
 list = [10,20,30,40,50,60,70]
-print(list[1:3])
+print(list[1:3]) # return [20,30]
 ## Negatives
-print(list[-5:-2])
+print(list[2:-1]) # return [30,40,50,60]
 ## Jumps
-print(list[::2])
+print(list[::2]) # return [10,30,50,70]
