@@ -16,13 +16,13 @@ while i < len(fruits):
 
 # Break and Continue Loop
 ## Continue
-company = "Was!kita"
+company = "Waskita"
 for letter in company:
-    if letter == "!":
+    if letter == "i":
         continue
     print("Letter: ", letter)
 ## Break
 for letter in company:
-    if letter == "!":
+    if letter == "i":
         break
     print("Letter: ", letter)
