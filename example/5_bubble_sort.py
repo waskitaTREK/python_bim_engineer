@@ -4,6 +4,7 @@ is_sorted = False
 while(not is_sorted):
     is_sorted = True
     for i in range(len(numbers)):
+        # if it's the end of list, than continue
         if i == len(numbers) - 1:
             continue
         

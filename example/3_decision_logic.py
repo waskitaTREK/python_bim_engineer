@@ -9,7 +9,7 @@ if number == 5:
 if len(numbers) == 5:
     print(numbers[3])
 
-if 3 in [1,2,3,4,5]:
+if number in numbers: # if 3 in [1,2,3,4,5]
     print("3 is here")
 
 # elif and else statement
