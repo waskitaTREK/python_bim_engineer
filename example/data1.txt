@@ -1,0 +1,3 @@
+Ryan,25,True,180,male,Jakarta,August 15th 1995
+Milo,27,True,175,male,Bogor,June 1st 1993
+Nano, 25,True,165,female,Semarang,February 15th 1996
