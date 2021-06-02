@@ -46,11 +46,34 @@ f = 20**(1/2)
 print(f)
 
 # Comparator
+# is equal
+print(5 == 3) # return False
 
-print(5 == 3) # is equal
-print(5 != 3) # is not equal
-print(5 > 3) # greater than
-print(5 < 3) # less than
-print(5 >= 3) # greater than equal
-print(5 <= 3) # less than equal
-print(~(5 <= 3)) # not operator
+# is not equal
+print(5 != 3) # return True
+
+# is greater than
+print(5 > 3) # return True
+
+# is less than
+print(5 < 3) # return False
+
+# is greater than equal
+print(5 >= 5) # return True
+
+# is less than equal
+print(5 <= 3) # return False
+
+# not operator
+print(~(5 <= 3)) # return True
+
+# boolean operator
+number = 10
+# and operator
+print(number >= 3 and number <= 15) # return True
+
+# or operator
+print(True or False) # return true
+
+# in operator
+print(10 in [9,10,11,12,13]) # return rue
