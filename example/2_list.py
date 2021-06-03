@@ -40,9 +40,15 @@ print(list1)
 # Slicing Item Values
 ## list[start:end:jump]
 ## Positives
-list = [10,20,30,40,50,60,70]
-print(list[1:3]) # return [20,30]
+numbers = [10,20,30,40,50,60,70]
+print(numbers[1:3]) # return [20,30]
 ## Negatives
-print(list[2:-1]) # return [30,40,50,60]
+print(numbers[2:-1]) # return [30,40,50,60]
 ## Jumps
-print(list[::2]) # return [10,30,50,70]
+print(numbers[::2]) # return [10,30,50,70]
+## Reverse
+print(numbers[::-1]) # return [70, 60, 50, 40, 30, 20, 10]
+
+# list builder
+## list from range
+print(list(range(5))) # return [0,1,2,3,4]

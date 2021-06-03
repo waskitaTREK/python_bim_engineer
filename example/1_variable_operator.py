@@ -1,13 +1,15 @@
 # Variable
 integer_number = 5
 
-words = 'Hello world'
+words = 'Hello world' # string with '
 
-words = "Hello Waskita!"
+words = "Hello Waskita!" # string with "
 
-floating_number = 4.2
+integer_number = 8 # integer number
 
-boolean = True
+floating_number = 4.2 # float number
+
+boolean = True # boolean
 
 # printing value
 print(words)
