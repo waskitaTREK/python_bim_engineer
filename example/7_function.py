@@ -1,5 +1,10 @@
+# simple function
 def addByTwo(number):
     return number + 2
+
+# function with default parameters value
+def addNumber(number, addBy=1):
+    return number + addBy
 
 print(addByTwo(7))
 
