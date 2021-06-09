@@ -1,9 +1,12 @@
+# define a function to append string number into list
 def return_of_list_numbers(number):
+    n = str(number)
     list = []
-    for i in range(len(number)):
-        list.append(int(number[i]))
+    for i in range(len(n)):
+        list.append(int(n[i]))
     return list
 
+# define a number to append number into list without changing the data into string
 def number_to_list_wo_string(number):
     numbers = []
 
@@ -23,7 +26,7 @@ def number_to_list_wo_string(number):
 
 number = int(input("Enter the number: "))
 
-# list_of_numbers = return_of_list_numbers(number)
-list_of_numbers = number_to_list_wo_string(number)
+list_of_numbers = return_of_list_numbers(number)
+# list_of_numbers = number_to_list_wo_string(number)
 
 print(list_of_numbers)
