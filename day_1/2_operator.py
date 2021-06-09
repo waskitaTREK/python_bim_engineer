@@ -51,7 +51,7 @@ num1 = 5
 num2 = 9
 num3 = 9
 
-# no Equal
+# not Equal
 print(num1 != num2)
 print(num2 != num3)
 
