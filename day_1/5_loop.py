@@ -11,7 +11,7 @@ persons = ["Taufiq", "Naufal", "Syamsul", "Yessy", "Ervan"]
 index = 0
 while index < len(persons):
     # print(persons[index])
-
+    
     index += 1
 
 for name in persons:
@@ -19,4 +19,16 @@ for name in persons:
     pass
 
 for number in range(5,14):
-    print(number)
+    # print(number)
+    pass
+
+index = 0
+while index < len(persons):
+    if index == 3:
+        break
+
+    print(persons[index])
+
+    index += 1
+
+print("loop finished")
