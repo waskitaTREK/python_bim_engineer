@@ -7,16 +7,20 @@ persons[0] # accessing data
 
 persons[0] = "Dedy" # changing list data
 
+# insert data berdasarkan index, lalu memberikan isi data untuk index tersebut
 persons.insert(2,"Tohari")
 
 print(persons)
 
+# menambahkan data pada list terakhir
 persons.append("Akbar")
 # print(persons)
 
+# Menghilangkan data berdasarkan informasinya
 persons.remove("Yessy")
 # print(persons)
 
+# Menghilangkan data berdasarkan indexnya
 persons.pop(0)
 # print(persons)
 
