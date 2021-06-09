@@ -1,15 +1,19 @@
 number = int(input("Enter a number:"))
 
-for divisor in range(2,number):
-    if number == 2:
-        print("prime number")
-        break
+if number <= 1:
+    print(str(number) + " is not prime number")
 
-    if number % divisor == 0:
-        print("not prime number")
-        break
-    
-    if divisor == number - 1:
-        print("prime number")
-        break
+else:
+    for divisor in range(0,number): # range(2,7) -> [0,1,2,3,4,5,6]
+        if number == 2:
+            print(str(number) + " is prime number")
+            break
+        
+        if number % divisor == 0:
+            print(str(number) + " is not prime number")
+            break
+        
+        if divisor == number - 1:
+            print(str(number) + " is prime number")
+            break
 
