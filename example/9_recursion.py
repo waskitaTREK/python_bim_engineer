@@ -7,7 +7,7 @@ def fibonacci(n):
         raise Exception("Please insert positive integer")
     
     # if number is 0 or 1, return the number
-    if n <= 1:
+    if n in [0,1]:
         return n
 
     # do the recursion
