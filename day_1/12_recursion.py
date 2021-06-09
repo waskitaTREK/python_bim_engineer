@@ -35,9 +35,4 @@ def faster_fib(index, mem={}):
     
     return mem[index]
 
-# print(faster_fib(998))
-
-numbers = [4,6,4,25,6,7,8]
-
-# print(dicti.keys())
-# print(dicti.values())
+print(faster_fib(45))
