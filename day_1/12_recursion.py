@@ -1,7 +1,7 @@
 def printNumbersUntil0(number):
     print(number)
 
-    # number = number - 1
+    number = number - 1
     if number > 0:
         printNumbersUntil0(number - 1)
 

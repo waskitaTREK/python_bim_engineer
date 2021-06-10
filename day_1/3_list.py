@@ -28,9 +28,9 @@ numbers = list(range(20))
 print(numbers)
 print(len(numbers))
 
-# print(numbers[0:10])
-# print(numbers[2:10])
-# print(numbers[1:len(numbers):2])
+print(numbers[0:10])
+print(numbers[2:10])
+print(numbers[1:len(numbers):2])
 
 list1 = list(range(10))
 list2 = list(range(10,25))
